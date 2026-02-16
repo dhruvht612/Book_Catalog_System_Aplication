@@ -1,0 +1,35 @@
+:root {
+  --bg-primary: #faf8f5;
+  --bg-card: #ffffff;
+  --accent: #2c5530;
+  --accent-hover: #3d6b42;
+  --accent-muted: #e8f0e9;
+  --text: #2d2a26;
+  --text-muted: #6b6560;
+  --border: #e5e0d8;
+  --danger: #c24a4a;
+  --danger-hover: #a83d3d;
+  --shadow: rgba(44, 85, 48, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'DM Serif Display', Georgia, serif;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+}

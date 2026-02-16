@@ -13,7 +13,7 @@ A book catalog system for managing and organizing your library collection.
 
 ### Prerequisites
 
-- [Add your requirements here, e.g., Node.js, Python, etc.]
+- Node.js 18+
 
 ### Installation
 
@@ -22,12 +22,14 @@ A book catalog system for managing and organizing your library collection.
 3. Run the application
 
 ```bash
-# Example - adjust for your stack
 git clone <repository-url>
 cd Book_Catalog_System_Aplication
-# npm install  |  pip install -r requirements.txt  |  etc.
-# npm start   |  python main.py  |  etc.
+cd frontend
+npm install
+npm start
 ```
+
+The app will be available at `http://localhost:5173`
 
 ### Usage
 
@@ -38,7 +40,18 @@ cd Book_Catalog_System_Aplication
 ```
 Book_Catalog_System_Aplication/
 ├── Readme.md
-└── ...
+└── frontend/
+    ├── package.json
+    ├── vite.config.js
+    ├── index.html
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── index.css
+        └── components/
+            ├── BookList.jsx
+            ├── BookForm.jsx
+            └── SearchBar.jsx
 ```
 
 ## License
